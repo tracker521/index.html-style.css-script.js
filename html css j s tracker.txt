@@ -1,0 +1,29 @@
+# 1️⃣ Aller dans le dossier du projet
+cd ~/Documents/Tracker
+
+# 2️⃣ Initialiser Git
+git init
+
+# 3️⃣ Ajouter tous les fichiers du projet
+git add .
+
+# 4️⃣ Faire le premier commit
+git commit -m "Version finale du projet Tracker pour GitHub Pages"
+
+# 5️⃣ Définir la branche principale
+git branch -M main
+
+# 6️⃣ Lier le projet au dépôt GitHub
+git remote add origin https://github.com/TON_UTILISATEUR/tracker.git
+
+# 7️⃣ Envoyer le projet sur GitHub
+git push -u origin main
+
+# 8️⃣ Message confirmation
+echo "✅ Upload terminé"
+echo "Active GitHub Pages dans : Settings → Pages"
+echo "Branch : main / root"
+
+# 9️⃣ Adresse du site
+echo "🌐 Ton site sera disponible ici :"
+echo "https://TON_UTILISATEUR.github.io/tracker/"
