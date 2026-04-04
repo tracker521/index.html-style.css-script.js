@@ -14,7 +14,7 @@ git commit -m "Version finale du projet Tracker pour GitHub Pages"
 git branch -M main
 
 # 6️⃣ Lier le projet au dépôt GitHub
-git remote add origin https://github.com/TON_UTILISATEUR/tracker.git
+git remote add origin https://github.com//madrilene-67/tracker.git
 
 # 7️⃣ Envoyer le projet sur GitHub
 git push -u origin main
@@ -26,4 +26,4 @@ echo "Branch : main / root"
 
 # 9️⃣ Adresse du site
 echo "🌐 Ton site sera disponible ici :"
-echo "https://TON_UTILISATEUR.github.io/tracker/"
+echo "https://madrilene-67.github.io/tracker/"
