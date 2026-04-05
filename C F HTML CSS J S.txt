@@ -1,0 +1,9 @@
+cd ~/Documents/Tracker
+git init
+git config --global user.name "madrilene-67"
+git config --global user.email "tonemail@example.com"
+git add .
+git commit -m "Version finale du projet Tracker"
+git branch -M main
+git remote add origin https://github.com/madrilene-67/tracker.git
+git push -u origin main
