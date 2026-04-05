@@ -1,0 +1,30 @@
+# 1️⃣ Aller dans le dossier du projet
+cd ~/Documents/Tracker
+
+# 2️⃣ Initialiser Git
+git init
+
+# 3️⃣ Configurer Git (à faire une seule fois)
+git config --global user.name "madrilene-67"
+git config --global user.email "tonemail@example.com"
+
+# 4️⃣ Ajouter tous les fichiers
+git add .
+
+# 5️⃣ Enregistrer la version du projet
+git commit -m "Version finale du projet Tracker"
+
+# 6️⃣ Définir la branche principale
+git branch -M main
+
+# 7️⃣ Connecter le projet au dépôt GitHub
+git remote remove origin 2>/dev/null
+git remote add origin https://github.com/madrilene-67/tracker.git
+
+# 8️⃣ Envoyer le projet sur GitHub
+git push -u origin main
+
+# 9️⃣ Message de confirmation
+echo "✅ Projet envoyé sur GitHub"
+echo "🌐 Ton site sera disponible ici :"
+echo "https://madrilene-67.github.io/tracker/"
